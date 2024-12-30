@@ -130,23 +130,35 @@ public class D_Operator {
 		booleanResult = a >= c;
 		System.out.println(booleanResult);
 		
-		
-		
-		
-		
-		
-		
-		
+//		논리 연산자: 피연산자가 모두 논리값인 연산자, 피연사를 조합
 
+//		논리 AND 연산자: && - 저항과 우항이 모두 true일 때 true를 반환
+//					  하나라도 false이면 false를 반환
+		booleanResult = false && false;
+		System.out.println(booleanResult);
+		booleanResult = (a == b) && (c == d);
+		System.out.println(booleanResult);
 
+//		논리 OR 연산자: || - 저항과 우항이 하나만이라도 true이면 true반환
+		booleanResult = true || false;
+		System.out.println(booleanResult);
+		booleanResult = (a > b) || (c < d);
+		System.out.println(booleanResult);
+		
+//		논리 NOT 연산자: ! - 피연산자의 반대로 반환
+		System.out.println(!booleanResult);
+		
+//		AND 연산의 경우 좌항이 false이면 우항이 dead code가 됨
+//		OR 연산의 경우 좌항이 true이면 우항이 dead code가 됨
+		System.out.println(a);
+		booleanResult = false && (a++ > b);
+		System.out.println(booleanResult);
+		System.out.println(a);
 		
 		
-		
-		
-		
-		
-		
-		
-	
+//		삼항 연산자: 조건에 따라 지정한 결과를 반환하는 연산자
+//		조건(논리식) ? (true일때 결과) :(false일때 결과)
+		String resultString = true ? "참" : "거짓";
+		System.out.println(resultString);
 	}
 }
