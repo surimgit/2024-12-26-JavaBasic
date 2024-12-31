@@ -38,7 +38,6 @@ public class B_JVM {
 	}
 	public static void main(String[] args) {
 		
-		
 		int lv1 = 20;
 		double lv2 = 3.5;
 		 
@@ -64,20 +63,5 @@ public class B_JVM {
 		b.iv = 99;
 		method2(b);
 		System.out.println(b.iv);
-		 
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
