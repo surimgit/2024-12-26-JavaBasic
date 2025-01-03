@@ -15,7 +15,6 @@ public class AccessModifierSub2 extends F_AccessModifier{
 //		super.packageInt = 10;
 //		super.privateInt = 10;
 	}
-	
 }
 
 class AccessModifier3 {

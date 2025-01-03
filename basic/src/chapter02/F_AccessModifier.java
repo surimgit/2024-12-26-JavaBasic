@@ -6,7 +6,7 @@ package chapter02;
 // default: 같은 패키지 내의 클래스에서 접근 가능
 // private: 오직 같은 클래스 내에서만 접근 가능
 
-// 특정 클래스 파일(.java파일)에서 public 클래스는
+// 특정 클래스 파일(.java파일)에서 public 클래스는 
 // 파일명과 일치해야 하고 단 하나만 지정 가능
 // public class ExampleClass{
 //	
