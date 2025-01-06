@@ -54,7 +54,7 @@ class Repository2 implements InterfaceRepository{
 	}
 	public void repositoryMethod2() {
 		System.out.println("Repository A2");
-	}
+	}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 }
 
 public class DIP {
