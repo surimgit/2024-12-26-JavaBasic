@@ -3,7 +3,7 @@ package chapter03;
 public class B_Package1 {
 
 	public static void main(String[] args) {
-		
+		 
 		// Wrapper 클래스: 기본형 데이터 타입을 참조형 데이터 타입으로 다룰수 있도록 도움을 주는 클래스
 		// 일반적으로 기본형 데이터 타입의 풀네임에 첫 글자를 대문자로 지정
 		
